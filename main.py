@@ -10,7 +10,7 @@ limite_peso_naranja = [150, 350]
 # Funcion ingresar naranjas, y calcular cantidad de cajones
 
 
-def CalculadoraDeNaranjas(num):
+def CalculadoraDeCajones(num):
     iterador = 1
     cajones = []
     cajon = []
@@ -48,4 +48,4 @@ while respuesta != -1:
     respuesta = int(input("Ingresar cantidad de naranjas: "))
     naranjas = respuesta
 
-    CalculadoraDeNaranjas(naranjas)
+    CalculadoraDeCajones(naranjas)
