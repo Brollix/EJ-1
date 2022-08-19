@@ -40,7 +40,7 @@ def CalculadoraDeCajones(num):
     print("naranjas para jugo:", len(sobrantes))
 
 
-def CalculadoraDeCamiones(naranjas):
+def CalculadoraDeCamiones(cajones):
     print(naranjas)
 
 while respuesta != -1:
